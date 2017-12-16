@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GYZCategoryKitNew'
-  s.version          = '0.1.0'
+  s.version          = '1'
   s.summary          = 'A short description of GYZCategoryKitNew.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/DragonDevelopment688/GYZCategoryKitNew'
+  s.homepage         = 'https://github.com/GaoYanZhiTeam/GYZCategoryKitNew'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DragonDevelopment688' => '1226773323@qq.com' }
-  s.source           = { :git => 'https://github.com/DragonDevelopment688/GYZCategoryKitNew.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GaoYanZhiTeam/GYZCategoryKitNew.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
