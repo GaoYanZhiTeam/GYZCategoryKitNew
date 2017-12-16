@@ -1,0 +1,6 @@
+framework module Pods_GYZCategoryKitNew_Example {
+  umbrella header "Pods-GYZCategoryKitNew_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

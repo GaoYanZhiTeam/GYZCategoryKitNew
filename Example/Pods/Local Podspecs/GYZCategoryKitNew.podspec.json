@@ -1,0 +1,22 @@
+{
+  "name": "GYZCategoryKitNew",
+  "version": "0.1.0",
+  "summary": "A short description of GYZCategoryKitNew.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DragonDevelopment688/GYZCategoryKitNew",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DragonDevelopment688": "1226773323@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/DragonDevelopment688/GYZCategoryKitNew.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GYZCategoryKitNew/Classes/**/*"
+}

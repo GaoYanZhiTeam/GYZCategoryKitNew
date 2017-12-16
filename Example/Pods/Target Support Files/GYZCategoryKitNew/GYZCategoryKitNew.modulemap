@@ -1,0 +1,6 @@
+framework module GYZCategoryKitNew {
+  umbrella header "GYZCategoryKitNew-umbrella.h"
+
+  export *
+  module * { export * }
+}

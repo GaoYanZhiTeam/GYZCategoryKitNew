@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26534291EF9243D0A213DDA2 /* GYZCategoryKitNew.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GYZCategoryKitNew.podspec; path = ../GYZCategoryKitNew.podspec; sourceTree = "<group>"; };
+		26534291EF9243D0A213DDA2 /* GYZCategoryKitNew.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GYZCategoryKitNew.podspec; path = ../GYZCategoryKitNew.podspec; sourceTree = "<group>"; };
 		3F78285AFFD6058D8DB86F6F /* Pods-GYZCategoryKitNew_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYZCategoryKitNew_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYZCategoryKitNew_Example/Pods-GYZCategoryKitNew_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4836EBD929F09F9415BF4923 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4836EBD929F09F9415BF4923 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D5E66B78D1293D60115832B /* Pods-GYZCategoryKitNew_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYZCategoryKitNew_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYZCategoryKitNew_Example/Pods-GYZCategoryKitNew_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GYZCategoryKitNew_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYZCategoryKitNew_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A39344F51A9783A210CBE43 /* Pods_GYZCategoryKitNew_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYZCategoryKitNew_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CECEC96F825BE562AC3C7E /* Pods-GYZCategoryKitNew_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYZCategoryKitNew_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GYZCategoryKitNew_Tests/Pods-GYZCategoryKitNew_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BABFFBDE15FA31823FE9EC1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BABFFBDE15FA31823FE9EC1E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FD559BEDA0E0CFCFBA09467D /* Pods-GYZCategoryKitNew_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYZCategoryKitNew_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GYZCategoryKitNew_Tests/Pods-GYZCategoryKitNew_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -491,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -539,6 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GYZCategoryKitNew/GYZCategoryKitNew-Prefix.pch";
 				INFOPLIST_FILE = "GYZCategoryKitNew/GYZCategoryKitNew-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +555,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GYZCategoryKitNew/GYZCategoryKitNew-Prefix.pch";
 				INFOPLIST_FILE = "GYZCategoryKitNew/GYZCategoryKitNew-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
