@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GYZCategoryKitNew_Example' do
+  pod 'GYZCategoryKitNew', :path => '../'
+
+  target 'GYZCategoryKitNew_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
